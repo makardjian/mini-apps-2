@@ -1,4 +1,5 @@
 import React from 'react';
+import Form from './Form.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -10,7 +11,10 @@ class App extends React.Component {
 
   render() {
     return(
-      <div>Hello World</div>
+      <div id='app'>
+        <h1>BTC Historcal Price Data</h1>
+        <Form/>
+      </div>
     )
   }
 }
